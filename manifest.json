@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Promoted Posts Hider",
+  "version": "1.0",
+  "description": "Hides promoted posts on LinkedIn.",
+  "author": "Upen (https://upen.dev) - github: github/eupendra",
+  "content_scripts": [
+    {
+      "matches": ["*://*.linkedin.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
