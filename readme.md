@@ -28,4 +28,3 @@ This intrusive practice disrupted my browsing experience, so I decided to create
 2. Make your changes
 3. Create a pull request
 4. Wait for the pull request to be merged
-5. Profit!
